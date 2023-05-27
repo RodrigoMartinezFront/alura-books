@@ -1,0 +1,25 @@
+@import url("style/header.css");
+@import url("style/banner.css");
+@import url("style/carrossel.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --amarelo: #EB9B00;
+    --azul: #002F52;
+     --azulclaro: #326589;
+     --azuldegrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+
+
+
+
+
+
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
