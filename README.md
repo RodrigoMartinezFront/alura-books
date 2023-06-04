@@ -1,4 +1,5 @@
-[fenix](https://github.com/RodrigoMartinezFront/alura-books/assets/132145472/cc404e47-e52e-47d3-a7e2-cf8e6cee8194)
+
+![fenixread](https://github.com/RodrigoMartinezFront/alura-books/assets/132145472/ea3e5212-13a6-4b22-b02b-04e1d2535015)
 
 <h1 align=center> Renascendo das Cinzas </h1>
 
