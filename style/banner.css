@@ -40,3 +40,40 @@ background-position: 1em;
 padding: 50px;
 
 }
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+    height: 350px;
+    
+    }
+    .banner__titulo {
+        font-size: 36px; 
+        padding-top: 3em;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+    .banner__pesquisa::placeholder {
+        text-align: center;
+        background-position: 5rem;
+    } 
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 10em;
+    }
+
+    .banner {
+        padding: 5em 0;
+    }
+}
+
+
+    

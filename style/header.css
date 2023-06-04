@@ -28,6 +28,29 @@
     
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url("../img/Menu\ Aberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background-color: var(--azul);
+    padding: 1em;
+    margin: auto;
+}
+
+.opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    background: var(--azul);
+    color: var(--branco);
+    padding: 2em 1em;
+
+}
+
+
+.container__icones {
+    display: flex;
+    align-items: center;
+}
+
 .container__imagem {
     padding: 1em;
 }
@@ -68,4 +91,112 @@ font-weight: 400;
 .container__botao {
     display: none;
 }
+
+.container__titulo__imagem {
+    display: none;
+}
+.container__1024 {
+    display: none;
+}
+.opcoes{
+    display: none;
+}
+
+.container__texto {
+    display: none;
+}
+
+.lista__menu__item:hover {
+    background: var(--azul);
+    
+}
+.lista__menu__link:hover {
+    color: white;
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+}
+    
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .container__titulo__imagem {
+        display: flex;
+    }
+    
+.cabecalho__menu-hamburguer {
+    display: none;
+}
+.container__imagem {
+    padding-left: 3rem;
+}
+.container__1024 {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    gap: 4rem;
+    padding: 0 4rem;
+    
+}
+
+.container__icones {
+    display: none;
+}
+.opcoes {
+    display: flex;
+    padding: 0 0 0 2em;
+    
+}
+
+.opcoes__item {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding: 0 1em;
+text-align: center;
+
+}
+
+.opcoes__link {
+    text-decoration: none;
+    color: var(--preto);
+}
+.opcoes__botao:checked ~ .lista__menu {
+    display: block;
+    width: auto;
+}
+.opcoes__botao {
+    display: none;
+}
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrinho,
+    .usuario {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        margin-top: 1em;
+    }
+
+    .container__texto {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Poppins';
+        padding: 0.5em;
+        display: block;
+    }
+
+.cabecalho {
+    padding: 0 2em;
+}
+    .opcoes {
+        margin-right: auto;
+        margin-top: 1em;
+    }
+    }
 

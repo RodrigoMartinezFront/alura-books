@@ -3,6 +3,7 @@
 @import url("style/carrossel.css");
 @import url("style/topicos.css");
 @import url("style/cadastro.css");
+@import url("style/rodape.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -11,6 +12,9 @@
     --azul: #002F52;
      --azulclaro: #326589;
      --azuldegrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+     --preto: #000000;
+     --cinza: #474646;
+     --cinzatitulo: #858585;
 
 
 
@@ -28,17 +32,12 @@ body {
 .espaço__branco {
     background-color: var(--branco);
 }
+
+
 .branco {
     padding: 0.2em;
     color: var(--branco);
 }
 
-.rodape {
-    background-color: var(--branco);
-    margin: 0.2em 0 0 0;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-padding: 1em 0 1.5em 1em;
-}
+
+

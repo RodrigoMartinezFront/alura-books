@@ -34,6 +34,34 @@ padding: 1em;
 }
 
 .topico__item {
-    margin: 1.5em 0.5em;
+    margin: 1.5em 0.8em;
+    padding: 1em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    
+
+    .topicos__titulo {
+        font-size: 24px;
+        font-weight: 300;
+    }
+   .topicos__lista {
+    margin: 1em 15em 0 15em;
+    display: flex;
+    gap: 16px;
+    text-align: justify;
+
+    }
+
+   .topico__link {
+    font-size: 24px;
+       }
+
+   } 
+
+   @media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 5em 10vw;
+    }
+   }
 
